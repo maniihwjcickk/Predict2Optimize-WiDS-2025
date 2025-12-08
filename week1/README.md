@@ -102,44 +102,11 @@ The notebook walks you through:
 
 ## **4. Week 1 Tasks**
 
-All tasks are implemented directly in the notebook.
-
-### **Task 1 — Download Data**
-* Choose 5 tickers  
-* Load with `yfinance.download()`  
-* Inspect columns, check missing values
-
-### **Task 2 — Compute Returns**
-* Simple return  
-* Log return  
-* Drop NaNs  
-* Plot return series
-
-### **Task 3 — Rolling Features**
-* 5-day return  
-* 20-day volatility (rolling std of log returns)  
-* 10-day momentum  
-* Add features to your DataFrame
-
-### **Task 4 — Visualizations**
-* Plot price series  
-* Plot log returns  
-* Plot rolling features  
-
-### **Task 5 — Clean Feature Table**
-* Ensure no NaNs remain  
-* Export your final feature matrix for Week 2  
+All tasks are mentioned in the notebook.
 
 ---
 
-## **5. Optional Tasks**
-* Compare simple vs log returns  
-* Correlation matrix across stocks  
-* Additional rolling features (EMA, rolling min/max, etc.)
-
----
-
-## **6. Resources**
+## **5. Resources**
 
 For detailed info on any of the libraries please refer to official documentation.
 
