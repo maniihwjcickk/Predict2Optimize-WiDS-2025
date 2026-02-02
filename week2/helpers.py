@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Helpers: save / load predicted returns and covariance
 # ============================================================
 
-def save_predictions(mu_hat, Sigma_hat, tickers, path="predicted.npz"):
+def save_predictions(mu_hat, Sigma_hat, tickers, path="predictions.npz"):
     """
     Save predicted mean returns and covariance to disk.
     """
